@@ -727,3 +727,172 @@ a:hover{
     padding-left: 25px;
     padding-right: 40px;
 }
+/* Services */
+.section5{
+    background-color: #fafdff;
+    padding-bottom: 70px;
+}
+.section5 .title {
+    text-align: center;
+}
+.section5 .title .ss{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.section5 p {
+    font-size: 13px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    
+    
+}
+.section5 .box{
+    /* background-color: rgb(128, 120, 120); */
+    height: 280px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(48, 46, 46, 0.027);
+}
+.section5 .icon {
+    margin: 0 auto 20px auto;
+    padding-top: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 55px;
+    background: #3498db;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+    margin-top:30px ;
+}
+.section5 .icon i{
+    color: #fff;
+    font-size: 35px;
+    
+}
+.section5 h4{
+    color: #111;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-left: 15px;
+    font-size: 20px;
+}
+/* PORTFOLIO */
+.portfolio{
+    padding-bottom: 100px;
+}
+
+
+.portfolio .title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.portfolio .title .s{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.portfolio p{
+    font-size: 16px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
+.portfolio ul {
+    padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+.portfolio ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 15px 10px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 3px;
+    
+}
+.portfolio ul li.active {
+    color: #fff;
+    background: #3498db;
+}
+.portfolio img{
+    width: 370px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    transform: scale(1,1);
+   
+}
+.portfolio .sec1:hover {
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+    
+}
+.portfolio .sec1 .info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    font-family:'Open Sans', sans-serif ;
+    overflow: hidden;
+    background-color: rgba(00, 00, 00, 0.5);
+}
+
+
+.portfolio .sec1:hover .info {
+    opacity: 1;
+    overflow: hidden;
+}
+/* TESTMOINALS */
+.testimonials{
+    height: 500px;
+    background-color: #f7fbfe;
+}
+.testimonials .title {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-weight: 600;
+    padding-top: 80px;
+}
+.testimonials .title .s{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 50px;
+}
+.testimonials p{
+    font-size: 16px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 40px;
+}
